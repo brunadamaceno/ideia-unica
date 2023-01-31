@@ -3,8 +3,9 @@ import { useState } from "react";
 function Home() {
   return (
     <div>
-      <h1> Home Bruna Isabela Damaceno</h1>
+      <h1> App Wix</h1>
       <Contador />
+      <instalarAppWix />
     </div>
   );
 }
@@ -15,11 +16,12 @@ function Contador() {
   function adiconarContador() {
     setContador(contador + 1);
   }
+
   return (
     <div>
       <div> {contador} </div>
-      <button onClick={adiconarContador}>teste botao</button>
-      <a href="https://www.wix.com/installer/install?token=8efe50fa555bdf1f0aa39cbfa54e8f7709f61e935a13b0c61a4dd250c600fbcc3f1250a273893faa0456053e17d76d511e216c6b2bf1f285cf941fb77a735f5bb6cdfe8b520acc90a2dcd3377cb572b7c2f74e037ad9cfe11d3463f2b3170477828771b675f1d2fc11fd3980954fab0dddbc827359c6f641417085f80b5ae47deb33440534c67d3289d42198a3d85584253dda1d619d1467d032977a736d48e109632e1c05106e09de9bc533af9ca966&appId=5e941a6a-ec79-4ca5-a56b-e30387d76a61&redirectUrl=https://ideia-unica-bruna.vercel.app/">
+      <button onClick={adiconarContador}>Contador de produtos</button>
+      <a href="https://www.wix.com/installer/install?token=a8f8e90f91ad2c2863878e11da80b366907cf39849a6afb4d40662808d67c75cc7b0d03ccd5ac5d237bbb6e10c2a4d0f8efe50fa555bdf1f0aa39cbfa54e8f7709f61e935a13b0c61a4dd250c600fbcc9317ff2d6c60ee851a026a7d2eb979fda59a890e0077fdea49e5f699732d208a71560c97d6675bb99223da9299fe3077b391ef1db99b13ef0f949254ecc9ce3c79c833c43228818cc7282662a71c7c6746f0bb5283278d3ea8c4a0b7d33213bc4cc8c9a8ef60aaf20adb2e457199497b09632e1c05106e09de9bc533af9ca966&appId=5e941a6a-ec79-4ca5-a56b-e30387d76a61&redirectUrl=https://ideia-unica-bruna.vercel.app/">
         Instalar
       </a>
     </div>
